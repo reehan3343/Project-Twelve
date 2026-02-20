@@ -1,0 +1,75 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+/* Fonts */
+body {
+    font-family: "Manrope", sans-serif;
+}
+.fancy {
+    font-family: "DM Serif Display", sans-serif;
+}
+
+
+/* Buttons */
+.btn_a {
+    border: 2px solid #54a8c7;
+    background-color: #54a8c7;
+}
+.btn_a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 #ddd;
+}
+.btn_b {
+    border: 2px solid #54a8c7;
+    color: #54a8c7;
+}
+.btn_b:hover {
+    background-color: #54a8c7;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 #ddd;
+}
+
+
+/* Navigation CSS Start */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 20px 0;
+    box-shadow: 0 0 5px 0 #ddd;
+}
+.navbar .nav-link {
+    color: #343f52;
+}
+.navbar .active, .navbar .nav-link:hover {
+    color: #54a8c7 !important;
+}
+/* Navigation CSS End */
+
+
+/* Footer CSS Start */
+footer {
+    padding: 100px 0 0;
+}
+footer h4, footer h5 {
+    color: #343f52;
+}
+footer h6, footer p {
+    margin-bottom: 30px;
+}
+footer .links li a, footer p, footer .email, footer .number {
+    font-weight: 500;
+    transition: 0.4s;
+}
+footer .links li a:hover, footer .email:hover, footer .number:hover {
+    color: #54a8c7 !important;
+}
+/* Footer CSS End */
