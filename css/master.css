@@ -22,7 +22,7 @@ body {
 }
 .btn_a:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 10px 0 #ddd;
+    box-shadow: 0 6px 10px 0 #0000001e;
 }
 .btn_b {
     border: 2px solid #54a8c7;
@@ -32,7 +32,7 @@ body {
     background-color: #54a8c7;
     color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 6px 10px 0 #ddd;
+    box-shadow: 0 6px 10px 0 #0000001e;
 }
 
 
@@ -57,7 +57,7 @@ body {
 
 /* Footer CSS Start */
 footer {
-    padding: 100px 0 0;
+    padding: 100px 0;
 }
 footer h4, footer h5 {
     color: #343f52;
@@ -71,5 +71,39 @@ footer .links li a, footer p, footer .email, footer .number {
 }
 footer .links li a:hover, footer .email:hover, footer .number:hover {
     color: #54a8c7 !important;
+}
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 60px 0;
+    }
+    footer h4 {
+        font-size: 18px;
+    }
+    footer h5 {
+        font-size: 16px;
+    }
+    footer h6, footer p, footer .links li a, footer .email, footer .number, footer .btn_a {
+        font-size: 14px;
+    }
+    footer .margin_top {
+        margin-top: 44px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    footer {
+        padding: 38px 0;
+    }
+    footer h4 {
+        font-size: 16px;
+    }
+    footer h5 {
+        font-size: 14px;
+    }
+    footer h6, footer p, footer .links li a, footer .email, footer .number, footer .btn_a {
+        font-size: 12px;
+    }
+    footer .margin_top {
+        margin-top: 24px !important;
+    }
 }
 /* Footer CSS End */
