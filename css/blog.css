@@ -93,4 +93,44 @@ header .headline h1 {
     color: #aab0bc;
     transition: 0.4s;
 }
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 60px 0;
+    }
+    .blog .item .texts {
+        padding: 30px 40px;
+    }
+    .blog .item .texts h4 {
+        font-size: 18px;
+    }
+    .blog .item .texts h6 {
+        font-size: 14px;
+    }
+    .blog .item .texts .category p, .blog .item .texts .category a, .blog .info ul li, .blog .info ul li a, .blog .info .likes a {
+        font-size: 12px;
+    }
+    .blog .info {
+        padding: 15px 40px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .blog {
+        padding: 38px 0;
+    }
+    .blog .item .texts {
+        padding: 16px;
+    }
+    .blog .item .texts h4 {
+        font-size: 12px;
+    }
+    .blog .item .texts h6 {
+        font-size: 10px;
+    }
+    .blog .item .texts .category p, .blog .item .texts .category a, .blog .info ul li, .blog .info ul li a, .blog .info .likes a {
+        font-size: 8px;
+    }
+    .blog .info {
+        padding: 6px 16px;
+    }
+}
 /* Blog CSS End */
