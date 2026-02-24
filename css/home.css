@@ -279,6 +279,29 @@ header .image .client .icon {
 .team_btm {
     padding: 0 0 100px;
 }
+.team_btm .wrapper {
+    position: relative;
+}
+.team_btm .bg {
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.team_btm .a {
+    background-color: #edf2fc;
+}
+.team_btm .b {
+    background-color: #fcf0f1;
+}
+.team_btm .c {
+    background-color: #edf9f6;
+}
+.team_btm .d {
+    background-color: #f6f3f9;
+}
 .team_btm .item {
     overflow: hidden;
 }
@@ -316,6 +339,18 @@ header .image .client .icon {
 /* Sandbox CSS Start */
 .sandbox {
     padding: 100px 0;
+}
+.sandbox .wrapper {
+    position: relative;
+}
+.sandbox .wrapper .bg {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    width: 100%;
+    height: 100%;
+    background-color: #edf2fc;
+    z-index: -1;
 }
 .sandbox .image {
     position: relative;
@@ -462,6 +497,10 @@ header .image .client .icon {
 }
 .faq .accordion-button {
     color: #54a8c7;
+}
+.faq .accordion-button:focus {
+    box-shadow: none;
+    border: 0;
 }
 @media screen and (max-width: 768px) {
     .faq {
