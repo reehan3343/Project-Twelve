@@ -1,0 +1,176 @@
+/* Header CSS Start */
+header {
+    padding: 170px 0 250px;
+    background-color: #eff7fa;
+    margin-bottom: -180px;
+}
+header .headline {
+    max-width: 360px;
+}
+header .headline h1 {
+    color: #343f52;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 150px 0 170px;
+        margin-bottom: -120px;
+    }
+    header .headline {
+        max-width: 220px;
+    }
+    header .headline h1 {
+        font-size: 38px;
+    }
+    header .headline h6 {
+        font-size: 14px;
+    }
+    .header_image {
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 130px 0;
+        margin-bottom: -100px;
+    }
+    header .headline {
+        max-width: 180px;
+    }
+    header .headline h1 {
+        font-size: 24px;
+    }
+    header .headline h6 {
+        font-size: 12px;
+    }
+    .header_image {
+        padding: 0 30px;
+    }
+}
+/* Header CSS End */
+
+
+/* Service Top CSS Start */
+.service_top {
+    padding: 100px 0;
+}
+.service_top h2 {
+    color: #343f52;
+}
+.service_top .a .progress-bar {
+    background-color: #c6b0dc;
+}
+.service_top .b .progress-bar {
+    background-color: #8caeec;
+}
+.service_top .c .progress-bar {
+    background-color: #b0d4c1;
+}
+.service_top .d .progress-bar {
+    background-color: #e3a6b6;
+}
+@media screen and (max-width: 768px) {
+    .service_top {
+        padding: 60px 0;
+    }
+    .service_top h2 {
+        font-size: 26px;
+    }
+    .service_top h6 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .service_top {
+        padding: 38px 0;
+    }
+    .service_top h2 {
+        font-size: 17px;
+    }
+    .service_top h6 {
+        font-size: 11px;
+    }
+}
+/* Service Top CSS End */
+
+
+/* Service Bottom CSS Start */
+.service_btm {
+    padding: 0 0 100px;
+}
+.service_btm .item h5 {
+    color: #343f52;
+}
+.service_btm .item h6 {
+    max-width: 280px;
+}
+@media screen and (max-width: 768px) {
+    .service_btm {
+        padding: 0 0 60px;
+    }
+    .service_btm .item h5 {
+        font-size: 16px;
+    }
+    .service_btm .item h6 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .service_btm {
+        padding: 0 0 38px;
+    }
+    .service_btm .item h5 {
+        font-size: 14px;
+    }
+    .service_btm .item h6 {
+        font-size: 12px;
+        max-width: 220px;
+    }
+}
+/* Service Bottom CSS End */
+
+
+/* How It Works CSS Start */
+.hiw {
+    padding: 100px 0;
+    background-color: #f6f7f9;
+}
+.hiw h2 {
+    max-width: 500px;
+    margin-bottom: 38px;
+}
+.hiw h2, .hiw .item h5 {
+    color: #343f52;
+}
+.hiw .item .icon img {
+    width: 34px;
+}
+@media screen and (max-width: 768px) {
+    .hiw {
+        padding: 60px 0;
+    }
+    .hiw h2 {
+        font-size: 26px;
+    }
+    .hiw .item h5 {
+        font-size: 16px;
+    }
+    .hiw h6 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .hiw {
+        padding: 38px 0;
+    }
+    .hiw h2 {
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+    .hiw .item h5 {
+        font-size: 14px;
+    }
+    .hiw h6 {
+        font-size: 12px;
+    }
+}
+/* How It Works CSS End */
