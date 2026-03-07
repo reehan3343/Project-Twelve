@@ -1,0 +1,49 @@
+/* Header CSS Start */
+header {
+    padding: 250px 0;
+    background: url(../images/services/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header .wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 34, 35, 0.5);
+}
+header .wrapper .headline {
+    max-width: 410px;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 200px;
+    }
+    header .wrapper .headline {
+        max-width: 380px;
+    }
+    header .wrapper .headline h1 {
+        font-size: 38px;
+    }
+    header .wrapper .headline h6 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 150px 0;
+    }
+    header .wrapper .headline {
+        max-width: 100%;
+    }
+    header .wrapper .headline h1 {
+        font-size: 24px;
+    }
+    header .wrapper .headline h6 {
+        font-size: 12px;
+    }
+}
+/* Header CSS End */

@@ -174,3 +174,168 @@ header .headline h1 {
     }
 }
 /* How It Works CSS End */
+
+
+/* Why Choose Us CSS Start */
+.wcu {
+    padding: 20px 0 100px;
+    background-color: #f6f7f9;
+}
+.wcu .accordion-button:hover {
+    color: #54a8c7;
+}
+.wcu .accordion-button:focus {
+    color: #54a8c7;
+    box-shadow: none;
+    border: 0;
+}
+@media screen and (max-width: 768px) {
+    .wcu {
+        padding: 20px 0 60px;
+    }
+    .wcu h2 {
+        font-size: 26px;
+    }
+    .wcu h6, .wcu .accordion-button, .wcu .accordion-body {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .wcu {
+        padding: 20px 0 38px; 
+    }
+    .wcu h2 {
+        font-size: 18px;
+    }
+    .wcu h6, .wcu .accordion-button, .wcu .accordion-body {
+        font-size: 12px;
+        padding: 6px 0;
+    }
+}
+/* Why Choose Us CSS End */
+
+
+/* Our Team CSS Start */
+.team {
+    padding: 100px 0;
+}
+.team h2 {
+    color: #343f52;
+}
+.team .margin_btm {
+    margin-top: 38px;
+}
+.team .item p {
+    font-size: 14px;
+    color: #aab0bc;
+}
+.team .item ul li .twitter {
+    color: #5daed5;
+}
+.team .item ul li .facebook {
+    color: #4470cf;
+}
+.team .item ul li .dribbble {
+    color: #e94d88;
+}
+@media screen and (max-width: 768px) {
+    .team {
+        padding: 60px 0;
+    }
+}
+/* Our Team CSS End */
+
+
+/* Testimonial CSS Start */
+.testimonial {
+    padding: 100px 0;
+    background-color: #f6f7f9;
+}
+.testimonial .wrapper .icon {
+    color: #aab0bc68;
+}
+.testimonial .brand {
+    padding: 60px 0 0;
+}
+.testimonial .brand .image {
+    max-width: 100px;
+}
+.testimonial .brand .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .testimonial {
+        padding: 60px 0;
+    }
+    .testimonial h5 {
+        font-size: 16px;
+    }
+    .testimonial p {
+        font-size: 14px;
+    }
+    .testimonial .brand {
+        padding: 30px 0 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testimonial {
+        padding: 38px 0;
+    }
+    .testimonial h5 {
+        font-size: 13px;
+    }
+    .testimonial p {
+        font-size: 12px;
+    }
+    .testimonial .brand {
+        padding: 10px 0 0;
+    }
+}
+/* Testimonial CSS End */
+
+
+/* Get In Touch CSS Start */
+.git {
+    padding: 100px 0;
+}
+.git h2 {
+    max-width: 500px;
+    margin-bottom: 38px;
+}
+.git h2, .git .item h5 {
+    color: #343f52;
+}
+.git .item .icon img {
+    width: 22px;
+}
+@media screen and (max-width: 768px) {
+    .git {
+        padding: 60px 0;
+    }
+    .git h2 {
+        font-size: 26px;
+    }
+    .git .item h5 {
+        font-size: 16px;
+    }
+    .git h6 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .git {
+        padding: 38px 0;
+    }
+    .git h2 {
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+    .git .item h5 {
+        font-size: 14px;
+    }
+    .git h6 {
+        font-size: 12px;
+    }
+}
+/* Get In Touch CSS End */
