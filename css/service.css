@@ -16,6 +16,7 @@ header .wrapper {
     background-color: rgba(24, 34, 35, 0.5);
 }
 header .wrapper .headline {
+    margin-top: 60px;
     max-width: 410px;
 }
 @media screen and (max-width: 768px) {
@@ -37,6 +38,7 @@ header .wrapper .headline {
         padding: 150px 0;
     }
     header .wrapper .headline {
+        margin-top: 70px;
         max-width: 100%;
     }
     header .wrapper .headline h1 {
@@ -47,3 +49,337 @@ header .wrapper .headline {
     }
 }
 /* Header CSS End */
+
+
+/* What We Do CSS Start */
+.wwd {
+    padding: 100px 0;
+    background-color: #fff;
+}
+.wwd .margin_btm {
+    margin-bottom: 36px;
+}
+.wwd .item {
+    padding: 40px;
+}
+.wwd .item .image img {
+    width: 48px;
+}
+.wwd .item h5 {
+    color: #343f52;
+}
+.wwd .a {
+    background-color: #fef3e4;
+}
+.wwd .b {
+    background-color: #fae6e7;
+}
+.wwd .c {
+    background-color: #eaf3ef;
+}
+.wwd .d {
+    background-color: #e0e9fa;
+}
+@media screen and (max-width: 768px) {
+    .wwd {
+        padding: 60px 0;
+    }
+    .wwd h6, .wwd .item h6, .wwd .btn_c {
+        font-size: 14px;
+    }
+    .wwd h1 {
+        font-size: 38px;
+    }
+    .wwd .item {
+        padding: 30px;
+    }
+    .wwd .item h5 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .wwd {
+        padding: 38px 0;
+    }
+    .wwd h6, .wwd .item h6, .wwd .btn_c {
+        font-size: 12px;
+    }
+    .wwd h1 {
+        font-size: 24px;
+    }
+    .wwd .item {
+        padding: 28px;
+    }
+    .wwd .item h5 {
+        font-size: 14px;
+    }
+    .wwd .margin_btm {
+        margin-bottom: 30px;
+    }
+}
+/* What We Do CSS End */
+
+
+/* Process CSS Start */
+.process {
+    background-color: #edf2fc;
+    padding: 100px 0;
+}
+.process .headline {
+    max-width: 800px;
+}
+.process .headline h1, .process .item h5 {
+    color: #343f52;
+}
+.process .item .image img {
+    width: 40px;
+}
+.process .item .image .img_one {
+    width: 28px;
+}
+@media screen and (max-width: 768px) {
+    .process {
+        padding: 60px 0;
+    }
+    .process .headline h6, .process .item h6 {
+        font-size: 14px;
+    }
+    .process .item h5 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .process {
+        padding: 38px 0;
+    }
+    .process .headline h6, .process .item h6 {
+        font-size: 12px;
+    }
+    .process .headline h1 {
+        font-size: 24px;
+    }
+    .process .item h5 {
+        font-size: 14px;
+    }
+}
+/* Process CSS End */
+
+
+/* Solution CSS Start */
+.solution {
+    padding: 100px 0;
+}
+.solution h1 {
+    color: #343f52;
+}
+.solution .a .progress-bar {
+    background-color: #c6b0dc;
+}
+.solution .b .progress-bar {
+    background-color: #8caeec;
+}
+.solution .c .progress-bar {
+    background-color: #b0d4c1;
+}
+.solution .d .progress-bar {
+    background-color: #e3a6b6;
+}
+@media screen and (max-width: 768px) {
+    .solution {
+        padding: 60px 0;
+    }
+    .solution h1 {
+        font-size: 38px;
+    }
+    .solution .labels h6 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .solution {
+        padding: 38px 0;
+    }
+    .solution h1 {
+        font-size: 24px;
+    }
+    .solution .labels h6 {
+        font-size: 12px;
+    }
+}
+/* Solution CSS End */
+
+
+/* Control CSS Start */
+.control {
+    padding: 0 0 100px;
+}
+.control h1 {
+    color: #343f52;
+}
+.control .item .check {
+    width: 19px;
+    height: 19px;
+    font-size: 12px;
+    background-color: #e6e8f7;
+    color: #54a8c7;
+}
+@media screen and (max-width: 768px) {
+    .control {
+        padding: 60px 0;
+    }
+    .control h1 {
+        font-size: 38px;
+    }
+    .control h6, .control .item p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .control {
+        padding: 38px 0;
+    }
+    .control h1 {
+        font-size: 24px;
+    }
+    .control h6, .control .item p {
+        font-size: 12px;
+    }
+}
+/* Control CSS End */
+
+
+/* Pricing Top Start */
+.pricing_top {
+    padding: 100px 0 300px;
+    background-color: #edf2fc;
+}
+.pricing_top h1 {
+    color: #343f52;
+    max-width: 800px;
+}
+@media screen and (max-width: 768px) {
+    .pricing_top {
+        padding: 60px 0 180px;
+    }
+    .pricing_top h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .pricing_top {
+        padding: 38px 0 114px;
+    }
+    .pricing_top h1 {
+        font-size: 24px;
+    }
+}
+/* Pricing Top End */
+
+
+/* Pricing Bottom CSS Start */
+.pricing_btm {
+    margin-top: -260px;
+    padding: 0 0 100px;
+}
+.pricing_btm .item {
+    padding: 40px 80px;
+}
+.pricing_btm .middle {
+    padding: 80px;
+}
+.pricing_btm .benefits li .check, .pricing_btm .benefits li .cross {
+    width: 19px;
+    height: 19px;
+    font-size: 12px;
+}
+.pricing_btm .benefits li .check {
+    background-color: #e6e8f7;
+    color: #54a8c7;
+}
+.pricing_btm .benefits li .cross {
+    background-color: #f7e6e6;
+    color: #c75454;
+}
+@media screen and (max-width: 768px) {
+    .pricing_btm {
+        margin-top: -140px;
+        padding: 0 0 60px;
+    }
+    .pricing_btm .item {
+        padding: 40px 60px;
+    }
+    .pricing_btm .middle {
+        padding: 34px 60px;
+    }
+    .pricing_btm .item h5 {
+        font-size: 16px;
+    }
+    .pricing_btm .item p, .pricing_btm .benefits li, .pricing_btm .btn_a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .pricing_btm {
+        margin-top: -100px;
+        padding: 0 0 38px;
+    }
+    .pricing_btm .item {
+        padding: 30px 40px;
+    }
+    .pricing_btm .middle {
+        padding: 24px 40px;
+    }
+    .pricing_btm .item h5 {
+        font-size: 14px;
+    }
+    .pricing_btm .item p, .pricing_btm .benefits li, .pricing_btm .btn_a {
+        font-size: 12px;
+    }
+}
+/* Pricing Bottom CSS End */
+
+
+/* Community CSS Start */
+.community {
+    padding: 100px 0;
+    margin: 0 0 60px;
+    background: url(../images/services/3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.community .headline {
+    max-width: 800px;
+}
+.community .headline h1 {
+    color: #343f52;
+}
+.community .item h2 {
+    font-size: 46px;
+    color: #3f78e0;
+}
+@media screen and (max-width: 768px) {
+    .community {
+        padding: 60px 0;
+        margin: 0 0 60px;
+    }
+    .community .headline h6, .community .item h6 {
+        font-size: 14px;
+    }
+    .community h1, .community .item h2 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .community {
+        padding: 38px 0;
+        margin: 0 0 38px;
+    }
+    .community .headline h6, .community .item h6 {
+        font-size: 12px;
+    }
+    .community h1, .community .item h2 {
+        font-size: 24px;
+    }
+}
+/* Community CSS End */
