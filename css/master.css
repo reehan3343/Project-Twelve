@@ -1,0 +1,144 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+/* Fonts */
+body {
+    font-family: "Manrope", sans-serif;
+}
+.fancy {
+    font-family: "DM Serif Display", sans-serif;
+}
+.cyan {
+    color: #54a8c7;
+}
+
+
+/* Buttons */
+.btn_a {
+    border: 2px solid #54a8c7;
+    background-color: #54a8c7;
+}
+.btn_a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 #0000001e;
+}
+.btn_b {
+    border: 2px solid #54a8c7;
+    color: #54a8c7;
+}
+.btn_b:hover {
+    background-color: #54a8c7;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 #0000001e;
+}
+.btn_c {
+    background-color: #343f52;
+    border: 2px solid #343f52;
+}
+.btn_c:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 #0000001e;
+}
+
+
+/* Navigation CSS Start */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 20px 0;
+    box-shadow: 0 0 5px 0 #ddd;
+}
+.navbar .nav-link {
+    color: #343f52;
+}
+.navbar .active, .navbar .nav-link:hover {
+    color: #54a8c7 !important;
+}
+/* Navigation CSS End */
+
+
+/* Footer CSS Start */
+footer {
+    padding: 100px 0 0;
+}
+footer h4, footer h5 {
+    color: #343f52;
+}
+footer h6, footer p {
+    margin-bottom: 30px;
+}
+footer .links li a, footer p, footer .email, footer .number {
+    font-weight: 500;
+    transition: 0.4s;
+}
+footer .links li a:hover, footer .email:hover, footer .number:hover {
+    color: #54a8c7 !important;
+}
+footer .copyright {
+    padding: 46px 0;
+}
+footer .copyright .socials .twitter {
+    color: #5daed5;
+}
+footer .copyright .socials .facebook {
+    color: #4470cf;
+}
+footer .copyright .socials .dribbble {
+    color: #e94d88;
+}
+footer .copyright .socials .instagram {
+    color: #d53581;
+}
+footer .copyright .socials .youtube {
+    color: #c8312b;
+}
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 60px 0 0;
+    }
+    footer h4 {
+        font-size: 18px;
+    }
+    footer h5 {
+        font-size: 16px;
+    }
+    footer h6, footer p, footer .links li a, footer .email, footer .number, footer .btn_a {
+        font-size: 14px;
+    }
+    footer .margin_top {
+        margin-top: 44px !important;
+    }
+    footer .copyright {
+        padding: 38px 0 24px;
+    }
+}
+@media screen and (max-width: 576px) {
+    footer {
+        padding: 38px 0 0;
+    }
+    footer h4 {
+        font-size: 16px;
+    }
+    footer h5 {
+        font-size: 14px;
+    }
+    footer h6, footer p, footer .links li a, footer .email, footer .number, footer .btn_a {
+        font-size: 12px;
+    }
+    footer .margin_top {
+        margin-top: 24px !important;
+    }
+    footer .copyright {
+        padding: 34px 0 20px;
+    }
+}
+/* Footer CSS End */

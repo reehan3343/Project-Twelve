@@ -1,0 +1,133 @@
+/* Header CSS Start */
+header {
+    padding: 170px 0 250px;
+    margin-bottom: -180px;
+}
+header .headline {
+    max-width: 360px;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 150px 0 170px;
+        margin-bottom: -100px;
+    }
+    header .headline {
+        max-width: 280px;
+    }
+    header .headline h1 {
+        font-size: 38px;
+    }
+    header .headline h6 {
+        font-size: 14px;
+    }
+    .header_image {
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 130px 0;
+        margin-bottom: -80px;
+    }
+    header .headline {
+        max-width: 180px;
+    }
+    header .headline h1 {
+        font-size: 24px;
+    }
+    header .headline h6 {
+        font-size: 12px;
+    }
+    .header_image {
+        padding: 0 30px;
+    }
+}
+/* Header CSS End */
+
+
+/* Contact Top CSS Start */
+.contact_top .wrapper {
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 #0000001e;
+}
+.contact_top .wrapper .texts {
+    padding: 58px;
+}
+.contact_top .wrapper .texts h1 {
+    color: #343f52;
+}
+@media screen and (max-width: 768px) {
+    .contact_top .wrapper .texts {
+        padding: 48px;
+    }
+    .contact_top .wrapper .texts h1 {
+        font-size: 30px;
+    }
+    .contact_top .wrapper .texts h5 {
+        font-size: 16px;
+    }
+    .contact_top .wrapper .texts h6, .contact_top .wrapper .btn_a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contact_top .wrapper .texts {
+        padding: 28px 28px 36px;
+    }
+    .contact_top .wrapper .texts h1 {
+        font-size: 24px;
+    }
+    .contact_top .wrapper .texts h5 {
+        font-size: 14px;
+    }
+    .contact_top .wrapper .texts h6, .contact_top .wrapper .btn_a {
+        font-size: 12px;
+    }
+}
+/* Contact Top CSS End */
+
+
+/* Contact Bottom CSS Start */
+.contact_btm {
+    padding: 100px 0;
+}
+.contact_btm .input_group input:focus, .contact_btm .input_group textarea:focus, .contact_btm .form-check .form-check-input:focus {
+    box-shadow: none;
+}
+.contact_btm h2, .contact_btm .item h5 {
+    color: #343f52;
+}
+.contact_btm .item .icon img {
+    width: 22px;
+}
+@media screen and (max-width: 768px) {
+    .contact_btm {
+        padding: 60px 0;
+    }
+    .contact_btm .input_group input, .contact_btm .input_group textarea, .contact_btm .form-check label, .contact_btm button, .contact_btm p, .contact_btm .item h6 {
+        font-size: 14px;
+    }
+    .contact_btm .item h5 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contact_btm {
+        padding: 38px 0;
+    }
+    .contact_btm .input_group input, .contact_btm .input_group textarea, .contact_btm .form-check label, .contact_btm button, .contact_btm p, .contact_btm .item h6 {
+        font-size: 12px;
+    }
+    .contact_btm .item h5 {
+        font-size: 14px;
+    }
+}
+/* Contact Bottom CSS End */
+
+
+/* Google Maps CSS Start */
+.map iframe {
+    width: 100%;
+    margin-bottom: -7px;
+}
+/* Google Maps CSS End */

@@ -1,0 +1,533 @@
+/* Header CSS Start */
+header {
+    padding: 160px 0 80px;
+    background-color: #eff7fa;
+}
+header h1 {
+    font-size: 59px;
+}
+header h1, header h5 {
+    color: #343f52;
+}
+header .image {
+    position: relative;
+}
+header .image .client {
+    position: absolute;
+    bottom: 16%;
+    right: 0;
+    padding: 20px 25px;
+    box-shadow: 0 0 10px 0 #dddddd76;
+}
+header .image .client .icon {
+    background-color: #eff7fa;
+    color: #54a8c7;
+    width: 44px;
+    height: 44px;
+    margin-right: 15px;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 120px 0 40px;
+    }
+    header h1 {
+        font-size: 48px;
+    }
+    header h5 {
+        font-size: 16px;
+    }
+    header p, header a {
+        font-size: 14px;
+    }
+    header .image .client {
+        position: absolute;
+        bottom: 16%;
+        right: 10%;
+        padding: 16px 21px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 110px 0 30px;
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    header h5 {
+        font-size: 14px;
+    }
+    header p, header a {
+        font-size: 12px;
+    }
+    header .image .client {
+        position: absolute;
+        bottom: 12%;
+        right: 0;
+        padding: 11px 16px;
+    }
+}
+/* Header CSS End */
+
+
+/* Brand CSS Start */
+.brand {
+    padding: 100px 0;
+}
+.brand h1, .brand .item h5 {
+    color: #343f52;
+}
+.brand .wrapper {
+    position: relative;
+}
+.brand .image {
+    max-width: 100px;
+}
+.brand .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .brand {
+        padding: 60px 0;
+    }
+    .brand h1 {
+        font-size: 38px;
+    }
+    .brand h5 {
+        font-size: 16px;
+    }
+    .brand p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .brand {
+        padding: 38px 0;
+    }
+    .brand h1 {
+        font-size: 24px;
+    }
+    .brand h5 {
+        font-size: 14px;
+    }
+    .brand p {
+        font-size: 12px;
+    }
+}
+/* Brand CSS End */
+
+
+/* Who Are We CSS Start */
+.waw {
+    padding: 40px 0 0;
+}
+.waw h1, .waw .item .texts h5 {
+    color: #343f52;
+}
+.waw .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .waw {
+        padding: 26px 0 0;
+    }
+    .waw h1 {
+        font-size: 38px;
+    }
+    .waw h5, .waw .item .texts h5 {
+        font-size: 16px;
+    }
+    .waw p, .waw .item .texts p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .waw h1 {
+        font-size: 24px;
+    }
+    .waw h5, .waw .item .texts h5 {
+        font-size: 16px;
+    }
+    .waw p, .waw .item .texts p {
+        font-size: 12px;
+    }
+}
+/* Who Are We CSS End */
+
+
+/* What We Do CSS Start */
+.wwd {
+    padding: 100px 0;
+}
+.wwd h1, .wwd .item .texts h5 {
+    color: #343f52;
+}
+.wwd .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .wwd {
+        padding: 60px 0;
+    }
+    .wwd h1 {
+        font-size: 38px;
+    }
+    .wwd h5, .wwd .item .texts h5 {
+        font-size: 16px;
+    }
+    .wwd .item .texts p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .wwd {
+        padding: 38px 0;
+    }
+    .wwd h1 {
+        font-size: 24px;
+    }
+    .wwd h5, .wwd .item .texts h5 {
+        font-size: 16px;
+    }
+    .wwd .item .texts p {
+        font-size: 12px;
+    }
+}
+/* What We Do CSS End */
+
+
+/* Testimonial CSS Start */
+.testimonial {
+    background-color: #eff7fa;
+}
+.testimonial .image {
+    margin-top: -80px;
+}
+.testimonial .dark {
+    color: #343f52;
+}
+.testimonial p {
+    color: #aab0bc;
+}
+@media screen and (max-width: 768px) {
+    .testimonial {
+        padding: 60px 0;
+    }
+    .testimonial h5 {
+        font-size: 16px;
+    }
+    .testimonial p, .testimonial .rate li {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testimonial {
+        padding: 38px 0;
+    }
+    .testimonial h5 {
+        font-size: 14px;
+    }
+    .testimonial p, .testimonial .rate li {
+        font-size: 12px;
+    }
+}
+/* Testimonial CSS End */
+
+
+/* Team Top CSS Start */
+.team_top {
+    padding: 100px 0;
+}
+.team_top h1, .team_top .item h2 {
+    font-size: 38px;
+    color: #343f52;
+}
+@media screen and (max-width: 768px) {
+    .team_top {
+        padding: 60px 0;
+    }
+    .team_top h5 {
+        font-size: 16px;
+    }
+    .team_top .item h2 {
+        font-size: 28px;
+    }
+    .team_top .item p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .team_top {
+        padding: 38px 0;
+    }
+    .team_top h1 {
+        font-size: 24px;
+    }
+    .team_top h5 {
+        font-size: 14px;
+    }
+    .team_top .item h2 {
+        font-size: 26px;
+    }
+    .team_top .item p {
+        font-size: 12px;
+    }
+}
+/* Team Top CSS End */
+
+
+/* Team Bottom CSS Start */
+.team_btm {
+    padding: 0 0 100px;
+}
+.team_btm .wrapper {
+    position: relative;
+}
+.team_btm .bg {
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.team_btm .a {
+    background-color: #edf2fc;
+}
+.team_btm .b {
+    background-color: #fcf0f1;
+}
+.team_btm .c {
+    background-color: #edf9f6;
+}
+.team_btm .d {
+    background-color: #f6f3f9;
+}
+.team_btm .item {
+    overflow: hidden;
+}
+.team_btm .item h5 {
+    color: #343f52;
+}
+.team_btm .item .image img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .team_btm {
+        padding: 0 0 60px;
+    }
+    .team_btm .item h5 {
+        font-size: 16px;
+    }
+    .team_btm .item p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .team_btm {
+        padding: 0 0 38px;
+    }
+    .team_btm .item h5 {
+        font-size: 14px;
+    }
+    .team_btm .item p {
+        font-size: 12px;
+    }
+}
+/* Team Bottom CSS End */
+
+
+/* Sandbox CSS Start */
+.sandbox {
+    padding: 100px 0;
+}
+.sandbox .wrapper {
+    position: relative;
+}
+.sandbox .wrapper .bg {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    width: 100%;
+    height: 100%;
+    background-color: #edf2fc;
+    z-index: -1;
+}
+.sandbox .image {
+    position: relative;
+}
+.sandbox .image img {
+    width: 100%;
+    height: auto;
+}
+.sandbox .image a {
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    color: #343f52;
+    background-color: #54a8c7;
+    width: 66px;
+    height: 66px;
+    transition: 0.4s;
+}
+.sandbox .image a:hover {
+    background-color: #343f52;
+    color: #54a8c7;
+}
+.sandbox .headline h1 {
+    color: #343f52;
+}
+.sandbox .headline, .sandbox .progress_bar {
+    max-width: 400px;
+}
+.sandbox .progress_bar .progress-bar {
+    background-color: #54a8c7 !important;
+}
+@media screen and (max-width: 768px) {
+    .sandbox {
+        padding: 60px 0;
+    }
+    .sandbox .headline h1 {
+        font-size: 38px;
+    }
+    .sandbox .headline h5 {
+        font-size: 16px;
+    }
+    .sandbox .progress_bar {
+        max-width: 100%;
+    }
+    .sandbox .progress_bar .labels p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .sandbox {
+        padding: 38px 0;
+    }
+    .sandbox .headline h1 {
+        font-size: 24px;
+    }
+    .sandbox .headline h5 {
+        font-size: 14px;
+    }
+    .sandbox .progress_bar .labels p {
+        font-size: 12px;
+    }
+    .sandbox .image a {
+        top: 39%;
+        left: 41%;
+    }
+}
+/* Sandbox CSS End */
+
+
+/* Pricing CSS Start */
+.pricing {
+    padding: 100px 0;
+}
+.pricing .headline {
+    max-width: 400px;
+}
+.pricing .headline h1, .pricing .item h5, .pricing .item h1 {
+    color: #343f52;
+}
+.pricing .margin_top {
+    margin-top: 40px;
+}
+.pricing .item {
+    padding: 60px 80px;
+    box-shadow: 0 0 30px 0 #ededed
+}
+.pricing .benefits li .check, .pricing .benefits li .cross {
+    width: 19px;
+    height: 19px;
+    font-size: 12px;
+}
+.pricing .benefits li .check {
+    background-color: #e6e8f7;
+    color: #54a8c7;
+}
+.pricing .benefits li .cross {
+    background-color: #f7e6e6;
+    color: #c75454;
+}
+@media screen and (max-width: 768px) {
+    .pricing {
+        padding: 60px 0;
+    }
+    .pricing .headline h1 {
+        font-size: 38px;
+    }
+    .pricing .headline h5 {
+        font-size: 16px;
+    }
+    .pricing .item {
+        padding: 60px;
+    }
+    .pricing .benefits li p, .pricing p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .pricing {
+        padding: 38px 0;
+    }
+    .pricing .headline h1 {
+        font-size: 24px;
+    }
+    .pricing .headline h5 {
+        font-size: 14px;
+    }
+    .pricing .item {
+        padding: 40px;
+    }
+    .pricing .benefits li p, .pricing p {
+        font-size: 12px;
+    }
+}
+/* Pricing CSS End */
+
+
+/* FAQ CSS Start */
+.faq {
+    padding: 100px 0;
+    background-color: #eff7fa;
+}
+.faq h1 {
+    color: #343f52;
+}
+.faq .accordion-button {
+    color: #54a8c7;
+}
+.faq .accordion-button:focus {
+    box-shadow: none;
+    border: 0;
+}
+@media screen and (max-width: 768px) {
+    .faq {
+        padding: 60px 0;
+    }
+    .faq h1 {
+        font-size: 38px;
+    }
+    .faq h5 {
+        font-size: 16px;
+    }
+    .faq .accordion-button, .faq .accordion-body {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .faq {
+        padding: 38px 0;
+    }
+    .faq h1 {
+        font-size: 24px;
+    }
+    .faq h5 {
+        font-size: 14px;
+    }
+    .faq .accordion-button, .faq .accordion-body {
+        font-size: 12px;
+    }
+}
+/* FAQ CSS End */

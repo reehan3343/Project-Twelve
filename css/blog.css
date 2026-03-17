@@ -1,0 +1,139 @@
+/* Header CSS Start */
+header {
+    padding: 170px 0 160px;
+    background-color: #eff7fa;
+    margin-bottom: -180px;
+}
+header .headline {
+    max-width: 360px;
+}
+header .headline h1 {
+    color: #343f52;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 150px 0 120px;
+        margin-bottom: -120px;
+    }
+    header .headline {
+        max-width: 300px;
+    }
+    header .headline h1 {
+        font-size: 38px;
+    }
+    header .headline h6 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 130px 0 100px;
+        margin-bottom: -100px;
+    }
+    header .headline {
+        max-width: 260px;
+    }
+    header .headline h1 {
+        font-size: 24px;
+    }
+    header .headline h6 {
+        font-size: 12px;
+    }
+}
+/* Header CSS End */
+
+
+/* Blog CSS Start */
+.blog {
+    padding: 100px 0;
+}
+.blog .item {
+    overflow: hidden;
+}
+.blog .item .image {
+    position: relative;
+    overflow: hidden;
+}
+.blog .item .image a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #191c24a2;
+    opacity: 0;
+}
+.blog .item .image img {
+    width: 100%;
+    height: auto;
+    transition: 0.4s;
+}
+.blog .item .image:hover img {
+    transform: scale(1.04);
+}
+.blog .item .image:hover a {
+    opacity: 1;
+}
+.blog .item .texts {
+    padding: 40px 50px;
+}
+.blog .item .texts .category p, .blog .item .texts .category a {
+    color: #54a8c7;
+    font-size: 14px;
+}
+.blog .item .texts h4 {
+    color: #343f52;
+    transition: 0.4s;
+}
+.blog .item .texts h4:hover, .blog .info ul li a:hover, .blog .info .likes a:hover {
+    color: #54a8c7;
+}
+.blog .info {
+    padding: 25px 50px;
+}
+.blog .info ul li, .blog .info ul li a, .blog .info .likes a {
+    font-size: 14px;
+    color: #aab0bc;
+    transition: 0.4s;
+}
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 60px 0;
+    }
+    .blog .item .texts {
+        padding: 30px 40px;
+    }
+    .blog .item .texts h4 {
+        font-size: 18px;
+    }
+    .blog .item .texts h6 {
+        font-size: 14px;
+    }
+    .blog .item .texts .category p, .blog .item .texts .category a, .blog .info ul li, .blog .info ul li a, .blog .info .likes a {
+        font-size: 12px;
+    }
+    .blog .info {
+        padding: 15px 40px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .blog {
+        padding: 38px 0;
+    }
+    .blog .item .texts {
+        padding: 16px;
+    }
+    .blog .item .texts h4 {
+        font-size: 12px;
+    }
+    .blog .item .texts h6 {
+        font-size: 10px;
+    }
+    .blog .item .texts .category p, .blog .item .texts .category a, .blog .info ul li, .blog .info ul li a, .blog .info .likes a {
+        font-size: 8px;
+    }
+    .blog .info {
+        padding: 6px 16px;
+    }
+}
+/* Blog CSS End */
