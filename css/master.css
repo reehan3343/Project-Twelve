@@ -45,6 +45,20 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 6px 10px 0 #0000001e;
 }
+.btn_d {
+    background-color: #a4aec633;
+}
+.btn_d:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 #0000001e;
+}
+.btn_e {
+    background-color: #e2626b;
+}
+.btn_e:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px 0 #0000001e;
+}
 
 
 /* Navigation CSS Start */
