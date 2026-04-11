@@ -25,7 +25,7 @@ header .info li a:hover {
 @media screen and (max-width: 768px) {
     header {
         padding: 150px 0 120px;
-        margin-bottom: -120px;h
+        margin-bottom: -120px;
     }
     header .headline {
         max-width: 500px;
@@ -159,5 +159,74 @@ header .info li a:hover {
     font-size: 14px;
     color: #aab0bc;
     transition: 0.4s;
+}
+@media screen and (max-width: 768px) {
+    .detail {
+        padding: 60px 0;
+    }
+    .detail .item .texts h4 {
+        font-size: 22px;
+        margin-bottom: 16px !important;
+    }
+    .detail .item .texts h6 {
+        font-size: 14px;
+    }
+    .detail .item .texts {
+        padding: 30px 40px;
+    }
+    .detail .quote h5 {
+        font-size: 16px;
+    }
+    .detail .quote h6 {
+        font-size: 10px !important;
+    }
+    .detail .btn_d, .detail .btn_e, .detail .btn_a {
+        font-size: 14px;
+    }
+    .detail .buttons {
+        padding: 0 0 80px;
+        margin: 0 0 60px;
+    }
+    .detail .comment_a, .detail .articles, .detail .comments {
+        padding: 0 0 70px;
+        margin: 0 0 80px;
+    }
+    .detail .article .texts {
+        padding: 20px 0 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .detail {
+        padding: 38px 0;
+    }
+    .detail .item .texts h4 {
+        font-size: 18px;
+    }
+    .detail .item .texts h6 {
+        font-size: 12px;
+    }
+    .detail .item .texts {
+        padding: 20px 30px;
+    }
+    .detail .quote h5 {
+        font-size: 12px;
+    }
+    .detail .quote h6 {
+        font-size: 8px !important;
+    }
+    .detail .btn_d, .detail .btn_e, .detail .btn_a {
+        font-size: 12px;
+    }
+    .detail .buttons {
+        padding: 0 0 70px;
+        margin: 0 0 50px;
+    }
+    .detail .comment_a, .detail .articles, .detail .comments {
+        padding: 0 0 60px;
+        margin: 0 0 70px;
+    }
+    .detail .article .texts {
+        padding: 20px 0 0;
+    }
 }
 /* Details CSS End */
